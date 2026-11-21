@@ -1,0 +1,93 @@
+
+.dashboard-header {
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+    padding: 25px 35px;
+    background: #101827;
+    border-bottom: 1px solid #1e293b;
+}
+
+.header-welcome h1 {
+    color: #f8fafc;
+    font-size: 25px;
+    margin-bottom: 7px;
+}
+
+.header-welcome p {
+    color: #94a3b8;
+    font-size: 13px;
+    margin: 0;
+}
+
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.header-notifications {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #334155;
+    border-radius: 10px;
+    background: #172337;
+    color: #cbd5e1;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.header-notifications:hover {
+    background: #26364c;
+}
+
+.header-user {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.user-avatar {
+    width: 42px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: #172d50;
+    color: #60a5fa;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.user-name {
+    color: #f8fafc;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.user-role {
+    color: #94a3b8;
+    font-size: 11px;
+}
+
+.header-logout {
+    color: #94a3b8;
+    font-size: 13px;
+    font-weight: 600;
+    transition: color 0.2s ease;
+}
+
+.header-logout:hover {
+    color: #60a5fa;
+}
